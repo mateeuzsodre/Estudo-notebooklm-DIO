@@ -107,6 +107,8 @@ Com base nos dados coletados, preparei uma tabela comparativa com as 5 principai
 
 Tabela Comparativa: Principais Planos de Saúde (2026) 
 Valores indicativos para beneficiários de 30 anos (plano individual/nacional). 
+<img width="768" height="467" alt="image" src="https://github.com/user-attachments/assets/8abfa634-88a6-423f-b98f-ee50e632f4a9" />
+
 Observações sobre os parâmetros: 
 Notas ANS: Refletem o Índice de Desempenho da Saúde Suplementar (IDSS), variando de 0 a 10. Bradesco e SulAmérica mantêm as maiores pontuações em 2026. 
 Variação de Preço: Os valores mais baixos (como os da Notre Dame e Amil) geralmente envolvem planos com coparticipação, que podem reduzir a mensalidade em até 70% para quem usa pouco o convênio. 
@@ -131,6 +133,7 @@ Resultado Obtido
 Para aprofundar a análise do mesmo perfil (30 anos, plano nacional), apresento uma visão mais detalhada que inclui critérios de rede hospitalar, vantagens competitivas e a natureza do reajuste, que é um fator crucial para o custo a longo prazo. 
 
  
+<img width="767" height="512" alt="image" src="https://github.com/user-attachments/assets/0bcaa42b-8961-4784-8999-213d07720b5a" />
 
 Informações Cruciais para a Decisão 
 
@@ -139,7 +142,8 @@ Previsibilidade de Custo: Planos individuais possuem reajustes anuais limitados 
 Opções de Baixo Custo: Para quem busca o menor valor, operadoras como Hapvida (líder no Norte/Nordeste) oferecem planos com coparticipação a partir de R$ 180–250, focados em rede própria. 
 Público Premium: A operadora Omint destaca-se por autorizar mais de 800 procedimentos fora do rol da ANS e permitir acesso a médicos renomados que geralmente não atendem convênios. 
 Para visualizar melhor a relação entre investimento e qualidade, gerei um novo gráfico detalhado. 
-O infográfico com o gráfico de dispersão comparando Preço Mínimo vs. Nota ANS das 7 operadoras citadas está sendo gerado e ficará disponível em breve na sua aba Estúdio. 
+O infográfico com o gráfico de dispersão comparando Preço Mínimo vs. Nota ANS das 7 operadoras citadas está sendo gerado e ficará disponível em breve na sua aba Estúdio.  
+
 
 Aprendizado
 
