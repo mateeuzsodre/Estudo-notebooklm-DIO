@@ -5,33 +5,34 @@ Contexto e Objetivos: O projeto referente à disciplina "Treinando uma IA de Apr
 
 O objetivo foi entender o que são os planos de saúde e como funcionam os principais existentes no mercado, obtendo um valor médio levando em consideração as regiões diferentes. A partir dessas perguntas principais, geramos dados listados, gráficos e relatórios. Modificando as perguntas em prompt Zero-shot prompting, Contexto, Formato Específico, Síntese, Público-Alvo e Relatório. A fim de comparar os resultados obtidos e identificar possíveis erros encontrados.  
 
+---
 Curadoria de Fontes: 
 
 Fontes no Youtube: 
 
-"🏆 Qual MELHOR PLANO de SAÚDE PJ (2026) ⭐️ MEI, ME, LTDA (Comparativo 100% ATUALIZADO)" https://www.youtube.com/watch?v=EGyQ8xyS_S8 
+- "🏆 Qual MELHOR PLANO de SAÚDE PJ (2026) ⭐️ MEI, ME, LTDA (Comparativo 100% ATUALIZADO)" https://www.youtube.com/watch?v=EGyQ8xyS_S8 
 
-"Melhores Planos de Saúde 2026: Qual contratar? (Guia Completo com Preços e Reajustes)" https://www.youtube.com/watch?v=gRsR2AIvEmQ 
+- "Melhores Planos de Saúde 2026: Qual contratar? (Guia Completo com Preços e Reajustes)" https://www.youtube.com/watch?v=gRsR2AIvEmQ 
 
 Fontes em PDF: 
 
-"Qualificação das Operadoras 2025 – Ano Base 2024" http://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-e-indicadores-do-setor/Listagem_Completa_dos_resultados_do_IDSS__2024__v1__2026_05_07.pdf 
+- "Qualificação das Operadoras 2025 – Ano Base 2024" http://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-e-indicadores-do-setor/Listagem_Completa_dos_resultados_do_IDSS__2024__v1__2026_05_07.pdf 
 
-"Melhor Plano de Saúde para Contratar em 2026: Guia Completo | Gabriel Bergamo" https://www.youtube.com/watch?v=E_coEHSuIRc 
+- "Melhor Plano de Saúde para Contratar em 2026: Guia Completo | Gabriel Bergamo" https://www.youtube.com/watch?v=E_coEHSuIRc 
 
-"OFICINA IDSS" https://www.ans.gov.br/sisge/cadastro/VisualizaArquivos.asp?txt_id_evento=822&id_evento_arquivo=3727 
+- "OFICINA IDSS" https://www.ans.gov.br/sisge/cadastro/VisualizaArquivos.asp?txt_id_evento=822&id_evento_arquivo=3727 
 
 Fontes em Blog: 
 
-"Melhor Plano de Saúde 2026: Ranking ANS" https://blog.ilovesaude.com.br/post/melhores-planos-de-saude-2026 
+- "Melhor Plano de Saúde 2026: Ranking ANS" https://blog.ilovesaude.com.br/post/melhores-planos-de-saude-2026 
 
-"Os 50 maiores planos de saúde do Brasil" https://valor.globo.com/empresas/noticia/2024/11/08/os-maiores-planos-de-saude-do-brasil.ghtml 
+- "Os 50 maiores planos de saúde do Brasil" https://valor.globo.com/empresas/noticia/2024/11/08/os-maiores-planos-de-saude-do-brasil.ghtml 
 
-"Melhores planos de saúde: como escolher o ideal" https://www.serasa.com.br/blog/melhor-plano-de-saude/ 
+- "Melhores planos de saúde: como escolher o ideal" https://www.serasa.com.br/blog/melhor-plano-de-saude/ 
 
- 
+--- 
 
-Engenharia de Prompts e "Cicatrizes":  
+**Engenharia de Prompts e "Cicatrizes":**
 
 Prompt Inicial (Base) 
 
@@ -65,7 +66,7 @@ A escolha entre essas operadoras deve considerar o perfil do usuário, a região
 
 Aprendizado 
 
-A primeira pergunta de uma forma simples obtivemos uma resposta genérica em que a IA utilizou as principais fontes como base e gerou possíveis links para continuação da interação e aprofundamento de pesquisa.  
+>  A primeira pergunta de uma forma simples obtivemos uma resposta genérica em que a IA utilizou as principais fontes como base e gerou possíveis links para continuação da interação e aprofundamento de pesquisa.  
 
 Prompt com Contexto 
 
@@ -125,7 +126,7 @@ Dica de economia: Para quem busca o menor valor possível, as fontes sugerem opt
 
 Aprendizado 
 
-Obtivemos uma resposta cujo contexto foi utilizado na geração dessa interação e pudemos visualizar uma continuidade de informação, onde utilizou dos indicadores citados na primeira pergunta e gerou um perfil médio como base que subsequente retornaremos para novos insights.  
+> Obtivemos uma resposta cujo contexto foi utilizado na geração dessa interação e pudemos visualizar uma continuidade de informação, onde utilizou dos indicadores citados na primeira pergunta e gerou um perfil médio como base que subsequente retornaremos para novos insights.  
 
 Prompt de Formato Específico 
 
@@ -158,7 +159,7 @@ A tabela comparativa acima foi gerada e o infográfico com o gráfico comparativ
 
 Aprendizado 
 
-A partir do perfil anteriormente estabelecido e a pergunta com geração de tabela e gráfico vemos que manteve o perfil e não houve divergência de dados, possibilitando uma melhor visualização da informação com o gráfico gerado.  
+> A partir do perfil anteriormente estabelecido e a pergunta com geração de tabela e gráfico vemos que manteve o perfil e não houve divergência de dados, possibilitando uma melhor visualização da informação com o gráfico gerado.  
 
 Prompt de Formato Específico - Segunda Tentativa 
 
@@ -200,7 +201,7 @@ Os planos de saúde podem ser contratados nas modalidades individual, voltada pa
 
 Aprendizado 
 
-Visualizamos uma resposta mais objetiva e que não houve menção aos principais operadores citados em perguntas anteriores, o que nos leva a crer que em uma síntese sem maiores especificidades pode ser deixada de lado algumas informações caso elas não sejam indicadas.   
+> Visualizamos uma resposta mais objetiva e que não houve menção aos principais operadores citados em perguntas anteriores, o que nos leva a crer que em uma síntese sem maiores especificidades pode ser deixada de lado algumas informações caso elas não sejam indicadas.   
 
 Prompt de Público-Alvo 
 
@@ -228,7 +229,7 @@ O infográfico "Qualidade vs Preço: Qual Plano Escolher?" está sendo criado co
 
 Aprendizado 
 
-O gráfico gerado a partir de público-alvo estabelecido nos mostrou quais foram as mudanças estabelecidas antes mesmo da visualização. O gráfico é de fato mais simplificado, com linguagem acessível e com melhor adaptação visual.  
+> O gráfico gerado a partir de público-alvo estabelecido nos mostrou quais foram as mudanças estabelecidas antes mesmo da visualização. O gráfico é de fato mais simplificado, com linguagem acessível e com melhor adaptação visual.  
 
 Prompt de Relatório 
 
@@ -247,7 +248,7 @@ Você poderá visualizar o documento completo na aba Estúdio em instantes.
 
  Aprendizado 
 
-O Relatório final nos gerou uma informação mais completa e estruturada com alguns itens que anteriormente não foram mencionados, porém que fazem parte da base de dados das fontes. Em suma, sendo necessário especificar na pergunta para manter o link com as perguntas anteriores e dessa forma não ocasionar em gerar mais informações para além daquelas inicialmente levantadas.  
+> O Relatório final nos gerou uma informação mais completa e estruturada com alguns itens que anteriormente não foram mencionados, porém que fazem parte da base de dados das fontes. Em suma, sendo necessário especificar na pergunta para manter o link com as perguntas anteriores e dessa forma não ocasionar em gerar mais informações para além daquelas inicialmente levantadas.  
 
  
 
