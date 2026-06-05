@@ -196,7 +196,8 @@ O Relatório final nos gerou uma informação mais completa e estruturada com al
 
 ---
 
-
+## Miniguia de Estudo (Entrega Final) ##
+O miniguia de estudo desenvolvido consolidou informações sobre os principais tipos de planos de saúde no Brasil, suas características, médias de valores por região e diferenças entre modalidades individuais, familiares e empresariais, utilizando como principal fonte de referência os dados disponibilizados pela Agência Nacional de Saúde Suplementar (ANS). A partir da utilização do NotebookLM, foram gerados resumos estruturados que facilitaram a compreensão do tema, além da criação de um glossário contendo conceitos importantes como coparticipação, cobertura hospitalar, abrangência regional, carência, segmentação assistencial e rede credenciada. Durante o processo, diferentes estratégias de engenharia de prompts foram aplicadas para aprimorar a qualidade das respostas, permitindo a construção de um conjunto de prompts reutilizáveis voltados para comparação de preços, geração de tabelas, criação de gráficos, síntese de conteúdos e elaboração de relatórios analíticos. O projeto demonstrou como a inteligência artificial pode ser utilizada em conjunto com bases oficiais da ANS como ferramenta de apoio à aprendizagem ativa, organização do conhecimento e análise de informações de maneira acessível, confiável e estruturada.
 
 
  
